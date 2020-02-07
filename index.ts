@@ -9,7 +9,7 @@ class PluginLogger {
   // INF: log(), inf(), info(), l(), i(), m(), msg(), message(), blue(), b()
   public log(message: string): void {
     this.stream.write(
-      `[${new Date().toLocaleString()}][INF][${this.name}][${message}]\n`
+      `[${new Date().toLocaleString()}][INF][${this.name}]${message}\n`
     );
     console.log(
       chalk.bgCyan(`INF|${new Date().toLocaleTimeString()}|${this.name}`) +

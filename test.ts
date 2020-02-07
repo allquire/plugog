@@ -11,4 +11,12 @@ const log = plugog.addPlugin('core');
 
 log.i('Info Test.');
 
+console.log('');
+
 log.e('Error Test.');
+
+console.log('');
+
+log.o('Success Test.');
+
+console.log('');
