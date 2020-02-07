@@ -1,7 +1,7 @@
 {
   "name": "plugog",
   "version": "0.1.0",
-  "description": "Plugin Logging Utility.",
+  "description": "Module Separated Logger.",
   "main": "dist/index.ts",
   "scripts": {
     "dev": "ts-node test.ts",
