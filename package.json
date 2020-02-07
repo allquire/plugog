@@ -4,7 +4,7 @@
   "description": "Plugin Logging Utility.",
   "main": "dist/index.ts",
   "scripts": {
-    "dev": "ts-node index.ts",
+    "dev": "ts-node test.ts",
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore . --fix",
     "build": "tsc -b",
     "test": "jest",
