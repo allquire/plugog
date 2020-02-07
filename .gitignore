@@ -63,6 +63,7 @@ typings/
 # Temp files
 temp.js
 temp/
+temp.log
 # *package-lock.json
 *temp.js*
 *dist*.zip
