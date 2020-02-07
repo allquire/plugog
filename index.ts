@@ -21,7 +21,7 @@ class PluginLogger {
   // ERR: err(), error(), e(), fatal(), stop(), red(), r()
   public err(message: string): void {
     this.stream.write(
-      `[${new Date().toLocaleString()}][ERR][${this.name}][${message}]\n`
+      `[${new Date().toLocaleString()}][ERR][${this.name}]${message}\n`
     );
     console.log(
       chalk.bgRed(`ERR|${new Date().toLocaleTimeString()}|${this.name}`) +
@@ -33,7 +33,7 @@ class PluginLogger {
   // OK: ok(), o(), s(), success(), ready(), green(), g()
   public ok(message: string): void {
     this.stream.write(
-      `[${new Date().toLocaleString()}][OK ][${this.name}][${message}]\n`
+      `[${new Date().toLocaleString()}][OK ][${this.name}]${message}\n`
     );
     console.log(
       chalk.bgGreen(`OK |${new Date().toLocaleTimeString()}|${this.name}`) +
