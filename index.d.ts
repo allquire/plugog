@@ -62,7 +62,7 @@ declare class PluginLogger {
 
 // export as namespace Plugog;
 
-export = Plugog;
+export default Plugog;
 
 /*~ Write your module's methods and properties in this class */
 declare class Plugog {
