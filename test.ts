@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import Plugog from './index';
 
-fs.writeFileSync('/test', '');
+fs.writeFileSync('./temp.log', '');
 
 const stream = fs.createWriteStream('./temp.log');
 
