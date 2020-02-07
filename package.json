@@ -1,8 +1,8 @@
 {
   "name": "plugog",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Module Separated Logger.",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node test.ts",
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore . --fix",
