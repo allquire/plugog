@@ -16,9 +16,9 @@ Module Separated Logger.
 
 ## 👏 Screenshots
 
-![Screenshot1](https://user-images.githubusercontent.com/20179549/74035349-149efb80-49f5-11ea-8557-5ed2821468de.png)
+![Screenshot1](https://user-images.githubusercontent.com/20179549/74126481-fe6e8680-4c12-11ea-80a8-23dbcb8492eb.png)
 
-![Screenshot2](https://user-images.githubusercontent.com/20179549/74035571-752e3880-49f5-11ea-9f12-cf83358a64b7.png)
+![Screenshot2](https://user-images.githubusercontent.com/20179549/74126500-0b8b7580-4c13-11ea-80ac-33a09d89f609.png)
 
 Please view [test.js](https://github.com/allquire/plugog/blob/master/test.ts).
 
@@ -117,6 +117,16 @@ Color: Green
 Console Format: `OK |22:18:05|core Success Test.`
 
 Log File Format: `[2020/2/7 22:18:05][OK ][core]Success Test.`
+
+### WRN
+
+warn(), wrn(), w(), warning(), orange(), yellow()
+
+Color: Yellow
+
+Console Format: `WRN|14:43:00|core Warn Test.`
+
+Log File Format: `[2020/2/10 14:43:00][WRN][core]Warn Test.`
 
 ## 💬 BUGs & Issues
 
