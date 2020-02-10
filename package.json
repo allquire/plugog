@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node test.ts",
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore . --fix",
-    "build": "tsc -b",
+    "build": "tsc -d",
     "test": "jest",
     "commit": "git cz"
   },
