@@ -42,6 +42,18 @@ class PluginLogger {
     );
   }
 
+  // WRN: warn(), wrn(), w(), warning(), orange(), yellow()
+  public warn(message: string): void {
+    this.stream.write(
+      `[${new Date().toLocaleString()}][WRN][${this.name}]${message}\n`
+    );
+    console.log(
+      chalk.bgYellow(`WRN|${new Date().toLocaleTimeString()}|${this.name}`) +
+        ' ' +
+        chalk.yellow(message)
+    );
+  }
+
   // Alias
   // INF
   public i(message: string): void {
@@ -108,6 +120,22 @@ class PluginLogger {
   }
   public g(message: string): void {
     this.ok(message);
+  }
+  // WRN
+  public wrn(message: string): void {
+    this.warn(message);
+  }
+  public w(message: string): void {
+    this.warn(message);
+  }
+  public warning(message: string): void {
+    this.warn(message);
+  }
+  public orange(message: string): void {
+    this.warn(message);
+  }
+  public yellow(message: string): void {
+    this.warn(message);
   }
 
   constructor(name: string, stream: WriteStream) {

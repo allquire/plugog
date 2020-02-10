@@ -17,6 +17,10 @@ log.e('Error Test.');
 
 console.log('');
 
+log.w('Warn Test.');
+
+console.log('');
+
 log.o('Success Test.');
 
 console.log('');
